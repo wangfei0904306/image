@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">image</string>
+
+    <integer name="chapter_num">15</integer>
+
+    <string name="app_name">哇美图</string>
+
+
+
 </resources>

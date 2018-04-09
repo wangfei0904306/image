@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.waskj.image.main.BaseActivity">
+
+
+    <com.waskj.image.common.MyScrollView
+        android:id="@+id/frag_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarSize="1dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/frag_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:clickable="false"/>
+        </LinearLayout>
+
+
+    </com.waskj.image.common.MyScrollView>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/up_top_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dip"
+        android:layout_marginRight="30dip"
+        android:src="@mipmap/up_top"/>
+
+
+
+</RelativeLayout>

@@ -1,4 +1,4 @@
-package com.waskj.image.image;
+package com.waskj.image;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.waskj.image.image", appContext.getPackageName());
+        assertEquals("com.waskj.image", appContext.getPackageName());
     }
 }

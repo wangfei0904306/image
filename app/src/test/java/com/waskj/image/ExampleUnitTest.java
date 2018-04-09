@@ -1,4 +1,4 @@
-package com.waskj.image.image;
+package com.waskj.image;
 
 import org.junit.Test;
 
